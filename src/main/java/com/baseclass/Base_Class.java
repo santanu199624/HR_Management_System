@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.LockSupport;
 
+import org.apache.hc.core5.util.Timeout;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -50,6 +53,7 @@ public class Base_Class {
 
 
 	}
+	
 
 	@AfterMethod
 	public void tearDown() {
@@ -57,5 +61,15 @@ public class Base_Class {
 			driver.quit();
 		}
 	}
+	
+	// Driver getter method
+		public WebDriver getDriver(){
+			return driver;
+		}
+		
+		// static wait for pause
+		public void staticWait(int seconds) {
+			LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));
+		}
 
 }

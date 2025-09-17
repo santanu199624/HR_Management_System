@@ -24,6 +24,11 @@ public class HomePage {
 		return actionClass.isDisplayed(adminTab);
 	}
 	
+	// verify the logo
+	public boolean verifyLogo() {
+		return actionClass.isDisplayed(logo);
+	}
+	
 	// method to perform logout operation
 		public void logout() {
 			actionClass.click(userIdButton);

@@ -85,18 +85,21 @@ public class ActionsClass {
 	}
 	
 	// method to compare two text
-	public void compareTwoText(By by, String expectedText) {
+	public boolean compareTwoText(By by, String expectedText) {
 		try {
 			waitForElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
 			if(expectedText.equals(actualText)) {
 				System.out.println("Text are matching :"+actualText+" equals "+expectedText);
+				return true;
 			}else {
 				System.out.println("Text are not matching :"+actualText+" not equals "+expectedText);
+				return false;
 			}
 		} catch (Exception e) {
 			System.out.println("Unable to compare the text :"+e.getMessage());
 		}
+		return false;
 	}
 
 }

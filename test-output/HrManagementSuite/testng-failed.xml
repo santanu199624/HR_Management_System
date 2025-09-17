@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HrManagementSuite]">
+  <test thread-count="5" name="HrManagementTest(failed)">
+    <classes>
+      <class name="testCases.test.Login_Page_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyWithInvalidLoginTest"/>
+          <include name="setUpPages"/>
+        </methods>
+      </class> <!-- testCases.test.Login_Page_Test -->
+    </classes>
+  </test> <!-- HrManagementTest(failed) -->
+</suite> <!-- Failed suite [HrManagementSuite] -->

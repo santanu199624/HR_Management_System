@@ -24,8 +24,8 @@ public class LoginPage {
 	
 	// Method to perform login
 	public void login(String username, String password) {
-		actionClass.enterText(userNameField, "Admin");
-		actionClass.enterText(passwordField, "admin123");
+		actionClass.enterText(userNameField, username);
+		actionClass.enterText(passwordField, password);
 		actionClass.click(loginBtn);
 	}
 	
@@ -40,8 +40,8 @@ public class LoginPage {
 	}
 	
 	// Verify if error is correct or not
-	public void verifyErrorMessage(String expectedError) {
-		actionClass.compareTwoText(errorMessage, expectedError);
+	public boolean verifyErrorMessage(String expectedError) {
+		return actionClass.compareTwoText(errorMessage, expectedError);
 	}
 
 }
