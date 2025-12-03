@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="HrManagementSuite">
+<suite name="HrManagementSuite" parallel="classes" thread-count="5">
 	<test name="HrManagementTest">
 		<classes>
+			<class name="testCases.test.DummyClass"></class>
+			<class name="testCases.test.DummyClass2"></class>
 			<class name="testCases.test.Login_Page_Test"></class>
+			<class name="testCases.test.Home_Page_Test"></class>
 		</classes>
 	</test>
 </suite>

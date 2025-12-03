@@ -1,0 +1,667 @@
+2025-11-03 06:57:41 [main] ERROR Base_Class - This is a Error message
+2025-11-03 06:57:41 [main] FATAL Base_Class - This is a Fatal message
+2025-11-03 06:57:43 [main] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-05 07:44:37 [main] ERROR Base_Class - This is a Error message
+2025-11-05 07:44:37 [main] FATAL Base_Class - This is a Fatal message
+2025-11-05 07:44:48 [main] ERROR Base_Class - This is a Error message
+2025-11-05 07:44:48 [main] FATAL Base_Class - This is a Fatal message
+2025-11-05 07:44:59 [main] ERROR Base_Class - This is a Error message
+2025-11-05 07:44:59 [main] FATAL Base_Class - This is a Fatal message
+2025-11-05 07:45:07 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a7becade22340221f33a67f049e7570, findElement {using=class name, value=//p[@class='oxd-userdropdown-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54287/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7becade22340221f33a67f049e7570
+2025-11-05 07:45:18 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54287/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7becade22340221f33a67f049e7570
+2025-11-05 07:45:23 [main] ERROR ActionsClass - Unable to click element!
+2025-11-05 07:45:28 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a7becade22340221f33a67f049e7570, findElement {using=xpath, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54287/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7becade22340221f33a67f049e7570
+2025-11-05 07:45:38 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54287/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a7becade22340221f33a67f049e7570
+2025-11-05 07:45:43 [main] ERROR ActionsClass - Unable to click element!
+2025-11-05 07:45:56 [main] ERROR Base_Class - This is a Error message
+2025-11-05 07:45:56 [main] FATAL Base_Class - This is a Fatal message
+2025-11-05 07:45:59 [main] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-05 07:46:11 [main] ERROR Base_Class - This is a Error message
+2025-11-05 07:46:11 [main] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:01 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-06 06:13:01 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:01 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-06 06:13:01 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:02 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-06 06:13:02 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:03 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-06 06:13:03 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, isElementDisplayed [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (45b6c783fe4e8eb27e0c4a8952f5f1d5)] -> name: username]
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to enter the value into input boxError communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to enter the value into input boxError communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to enter the value into input boxError communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to enter the value into input boxError communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to describe the element:Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to click element!
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not visible: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45b6c783fe4e8eb27e0c4a8952f5f1d5, findElements [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56739/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b6c783fe4e8eb27e0c4a8952f5f1d5
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-06 06:13:09 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not displayed
+2025-11-06 06:13:21 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-06 06:13:21 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-06 06:13:24 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:20:39 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:20:45 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [056d8ce166f605969b5864dbf6980407, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50982/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 056d8ce166f605969b5864dbf6980407
+2025-11-07 07:20:46 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a43c4a3e4500b55d3ac99d531cd4acbf, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50979/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a43c4a3e4500b55d3ac99d531cd4acbf
+2025-11-07 07:20:56 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Login '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50982/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 056d8ce166f605969b5864dbf6980407
+2025-11-07 07:20:56 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Login '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50979/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a43c4a3e4500b55d3ac99d531cd4acbf
+2025-11-07 07:21:01 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:21:01 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:21:12 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50982/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 056d8ce166f605969b5864dbf6980407
+2025-11-07 07:21:12 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='oxd-brand-banner']//img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50979/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a43c4a3e4500b55d3ac99d531cd4acbf
+2025-11-07 07:21:17 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-07 07:21:17 [TestNG-test-HrManagementTest-3] ERROR ActionsClass - Element is not displayed
+2025-11-07 07:21:28 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:21:28 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:21:33 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b90d4496f678092e2ed76f6a826279c, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51082/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b90d4496f678092e2ed76f6a826279c
+2025-11-07 07:21:44 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Login '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51082/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b90d4496f678092e2ed76f6a826279c
+2025-11-07 07:21:49 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:22:00 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //p[text()='Invalid credentials'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51082/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b90d4496f678092e2ed76f6a826279c
+2025-11-07 07:22:05 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to compare the text :no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Invalid credentials']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b90d4496f678092e2ed76f6a826279c, findElement {value=//p[text()='Invalid credentials'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51082/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b90d4496f678092e2ed76f6a826279c
+2025-11-07 07:24:51 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:24:51 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:24:57 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d7385d629d7a5f7820cc4157e7100bd, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d7385d629d7a5f7820cc4157e7100bd
+2025-11-07 07:25:07 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Login '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d7385d629d7a5f7820cc4157e7100bd
+2025-11-07 07:25:12 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:25:23 [main] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d7385d629d7a5f7820cc4157e7100bd
+2025-11-07 07:25:28 [main] ERROR ActionsClass - Element is not displayed
+2025-11-07 07:33:06 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:33:06 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:33:09 [main] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-07 07:33:32 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:33:32 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:33:40 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b98798eca6e717632ef6a6628787a754, findElement {using=class name, value=//p[@class='oxd-userdropdown-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51347/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b98798eca6e717632ef6a6628787a754
+2025-11-07 07:33:51 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51347/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b98798eca6e717632ef6a6628787a754
+2025-11-07 07:33:56 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:34:01 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b98798eca6e717632ef6a6628787a754, findElement {using=xpath, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51347/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b98798eca6e717632ef6a6628787a754
+2025-11-07 07:34:12 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51347/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b98798eca6e717632ef6a6628787a754
+2025-11-07 07:34:17 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:35:13 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-07 07:35:13 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:35:13 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-07 07:35:13 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:35:14 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-07 07:35:14 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:35:19 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:35:19 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:35:31 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51439/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da96ccaf6f2919210065677041574da4
+2025-11-07 07:35:37 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-07 07:35:49 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:35:49 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:35:51 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-07 07:37:06 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:37:06 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:37:18 [main] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51631/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 434fd88bb950730065075a8cb7240824
+2025-11-07 07:37:23 [main] ERROR ActionsClass - Element is not displayed
+2025-11-07 07:53:02 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:53:02 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:53:39 [main] ERROR Base_Class - This is a Error message
+2025-11-07 07:53:39 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:53:47 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [052a01b79809b29cefb814df207f83bc, findElement {using=class name, value=//p[@class='oxd-userdropdown-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 052a01b79809b29cefb814df207f83bc
+2025-11-07 07:53:57 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 052a01b79809b29cefb814df207f83bc
+2025-11-07 07:54:03 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:54:08 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [052a01b79809b29cefb814df207f83bc, findElement {using=xpath, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 052a01b79809b29cefb814df207f83bc
+2025-11-07 07:54:18 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 052a01b79809b29cefb814df207f83bc
+2025-11-07 07:54:23 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:54:52 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:54:52 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-07 07:54:53 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:55:01 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8d6eac3f97b7b5f28a1e124c34d48e5, findElement {using=class name, value=//p[@class='oxd-userdropdown-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d6eac3f97b7b5f28a1e124c34d48e5
+2025-11-07 07:55:12 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d6eac3f97b7b5f28a1e124c34d48e5
+2025-11-07 07:55:17 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:55:22 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8d6eac3f97b7b5f28a1e124c34d48e5, findElement {using=xpath, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d6eac3f97b7b5f28a1e124c34d48e5
+2025-11-07 07:55:32 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8d6eac3f97b7b5f28a1e124c34d48e5
+2025-11-07 07:55:37 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:55:52 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:55:52 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:55:54 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Text are not matching :Invalid credentials not equals Invalid credentials1
+2025-11-07 07:56:47 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-07 07:56:47 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:56:48 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-07 07:56:48 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:56:49 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:56:49 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:56:50 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-07 07:56:50 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-07 07:56:58 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df384d19a1bcf058b556697e189fef04, findElement {value=//p[@class='oxd-userdropdown-name'], using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52471/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df384d19a1bcf058b556697e189fef04
+2025-11-07 07:57:08 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52471/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df384d19a1bcf058b556697e189fef04
+2025-11-07 07:57:13 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:57:18 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df384d19a1bcf058b556697e189fef04, findElement {value=Logout, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52471/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df384d19a1bcf058b556697e189fef04
+2025-11-07 07:57:29 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52471/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df384d19a1bcf058b556697e189fef04
+2025-11-07 07:57:34 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 07:57:47 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 07:57:47 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:00:23 [main] ERROR Base_Class - This is a Error message
+2025-11-07 08:00:23 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:00:35 [main] ERROR Base_Class - This is a Error message
+2025-11-07 08:00:35 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:00:46 [main] ERROR Base_Class - This is a Error message
+2025-11-07 08:00:46 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:00:54 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9460224b27c2599fa408a3307724b33e, findElement {using=class name, value=//p[@class='oxd-userdropdown-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9460224b27c2599fa408a3307724b33e
+2025-11-07 08:01:04 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9460224b27c2599fa408a3307724b33e
+2025-11-07 08:01:09 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 08:01:14 [main] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9460224b27c2599fa408a3307724b33e, findElement {using=xpath, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9460224b27c2599fa408a3307724b33e
+2025-11-07 08:01:25 [main] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9460224b27c2599fa408a3307724b33e
+2025-11-07 08:01:30 [main] ERROR ActionsClass - Unable to click element!
+2025-11-07 08:01:43 [main] ERROR Base_Class - This is a Error message
+2025-11-07 08:01:43 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:01:57 [main] ERROR Base_Class - This is a Error message
+2025-11-07 08:01:57 [main] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:22 [TestNG-test-HrManagementTest-5] ERROR Base_Class - This is a Error message
+2025-11-07 08:03:22 [TestNG-test-HrManagementTest-5] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:24 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-07 08:03:24 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-07 08:03:25 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-07 08:03:36 [TestNG-test-HrManagementTest-5] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //p[text()='Invalid credentials'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:03:41 [TestNG-test-HrManagementTest-5] ERROR ActionsClass - Unable to compare the text :no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Invalid credentials']"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [231beb185e552cbdd7fab0bf786218a5, findElement {value=//p[text()='Invalid credentials'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:03:49 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [231beb185e552cbdd7fab0bf786218a5, findElement {value=//p[@class='oxd-userdropdown-name'], using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:03:59 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:04:04 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-07 08:04:09 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [231beb185e552cbdd7fab0bf786218a5, findElement {value=Logout, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:04:20 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52972/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 231beb185e552cbdd7fab0bf786218a5
+2025-11-07 08:04:25 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-5] ERROR Base_Class - This is a Error message
+2025-11-10 07:32:09 [TestNG-test-HrManagementTest-5] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:32:10 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-10 07:32:10 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:32:12 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-10 07:32:23 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51129/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffe11e125d981fc48ce495d3b15d69ee
+2025-11-10 07:32:28 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-10 07:34:26 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-10 07:34:26 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:34:26 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-10 07:34:26 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:34:27 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-10 07:34:27 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:34:29 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-10 07:34:29 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-10 07:34:39 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51296/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb430071a4790e0fc7edaec9a71b6c66
+2025-11-10 07:34:44 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-10 07:34:55 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-10 07:34:55 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:29:36 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-11 06:29:36 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:29:36 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-11 06:29:36 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:29:37 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-11 06:29:37 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:29:38 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-11 06:29:38 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:29:52 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52313/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c79204dc8320230c5062acc4fafcdb83
+2025-11-11 06:29:57 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-11 06:30:07 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-11 06:30:07 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:31:42 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-11 06:31:42 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:31:45 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-11 06:31:45 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:31:45 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-11 06:31:45 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:31:46 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-11 06:31:46 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-11 06:31:58 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not visible: Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[text()='Admin'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52569/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64e7345b3f6e9103b72d47bb13949ed6
+2025-11-11 06:32:03 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not displayed
+2025-11-11 06:32:14 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-11 06:32:14 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-23 07:03:47 [TestNG-test-HrManagementTest-1] ERROR Base_Class - This is a Error message
+2025-11-23 07:03:47 [TestNG-test-HrManagementTest-1] FATAL Base_Class - This is a Fatal message
+2025-11-23 07:03:48 [TestNG-test-HrManagementTest-2] ERROR Base_Class - This is a Error message
+2025-11-23 07:03:48 [TestNG-test-HrManagementTest-2] FATAL Base_Class - This is a Fatal message
+2025-11-23 07:03:50 [TestNG-test-HrManagementTest-3] ERROR Base_Class - This is a Error message
+2025-11-23 07:03:50 [TestNG-test-HrManagementTest-3] FATAL Base_Class - This is a Fatal message
+2025-11-23 07:03:52 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-23 07:03:52 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message
+2025-11-23 07:04:01 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"css selector","selector":".\/\/p\[\@class\=\'oxd\-userdropdown\-name\'\]"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40cd27f05a8fbd6ce76bf715b407d50f, findElement {value=//p[@class='oxd-userdropdown-name'], using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51262/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40cd27f05a8fbd6ce76bf715b407d50f
+2025-11-23 07:04:11 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.className: //p[@class='oxd-userdropdown-name'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51262/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40cd27f05a8fbd6ce76bf715b407d50f
+2025-11-23 07:04:16 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-23 07:04:21 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to describe the element:no such element: Unable to locate element: {"method":"xpath","selector":"Logout"}
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40cd27f05a8fbd6ce76bf715b407d50f, findElement {value=Logout, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51262/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40cd27f05a8fbd6ce76bf715b407d50f
+2025-11-23 07:04:32 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Element is not clickable: Expected condition failed: waiting for element to be clickable: By.xpath: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51262/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40cd27f05a8fbd6ce76bf715b407d50f
+2025-11-23 07:04:37 [TestNG-test-HrManagementTest-4] ERROR ActionsClass - Unable to click element!
+2025-11-23 07:04:53 [TestNG-test-HrManagementTest-4] ERROR Base_Class - This is a Error message
+2025-11-23 07:04:53 [TestNG-test-HrManagementTest-4] FATAL Base_Class - This is a Fatal message

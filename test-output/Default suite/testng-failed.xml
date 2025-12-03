@@ -6,9 +6,10 @@
       <class name="testCases.test.Login_Page_Test">
         <methods>
           <include name="setUp"/>
-          <include name="verifyWithInvalidLoginTest"/>
           <include name="tearDown"/>
           <include name="setUpPages"/>
+          <include name="verifyValidLoginTest"/>
+          <include name="loadConfig"/>
         </methods>
       </class> <!-- testCases.test.Login_Page_Test -->
     </classes>

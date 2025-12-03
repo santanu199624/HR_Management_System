@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.actions.ActionsClass;
+import com.baseclass.Base_Class;
 
 public class LoginPage {
 	
@@ -14,13 +15,17 @@ public class LoginPage {
 	// Define locators using By class
 	private By userNameField = By.name("username");
 	private By passwordField = By.name("password");
-	private By loginBtn = By.xpath("//button[text()=' Login ']");
+	private By loginBtn = By.xpath("//button[@type='submit']");
 	private By errorMessage = By.xpath("//p[text()='Invalid credentials']");
 	
 	// Initialize the action class object by passing the webdriver instance
+//	public LoginPage(WebDriver driver) {
+//		this.actionClass =  new ActionsClass(driver);
+//	}
+	
 	public LoginPage(WebDriver driver) {
-		this.actionClass =  new ActionsClass(driver);
-	}
+		this.actionClass = Base_Class.getActionDriver();
+		}
 	
 	// Method to perform login
 	public void login(String username, String password) {

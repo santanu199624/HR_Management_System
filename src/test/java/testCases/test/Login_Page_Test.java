@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.baseclass.Base_Class;
 import com.pages.HomePage;
 import com.pages.LoginPage;
+import com.utilities.ExtentManager;
 
 
 
@@ -21,7 +22,7 @@ public class Login_Page_Test extends Base_Class{
 		homePage = new HomePage(getDriver());
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void verifyValidLoginTest(){
 		loginPage.login("Admin", "admin123");
 		Assert.assertTrue(homePage.isAdminTabVisible(), "Admin tab should be visible after successfully login!");
