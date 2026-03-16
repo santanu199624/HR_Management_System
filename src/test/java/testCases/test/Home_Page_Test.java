@@ -7,6 +7,11 @@ import org.testng.annotations.Test;
 import com.baseclass.Base_Class;
 import com.pages.HomePage;
 import com.pages.LoginPage;
+
+import com.baseclass.Base_Class;
+import com.pages.HomePage;
+import com.pages.LoginPage;
+import com.utilities.DataProviders;
 import com.utilities.ExtentManager;
 
 
@@ -22,10 +27,17 @@ public class Home_Page_Test extends Base_Class {
 		homePage = new HomePage(getDriver());
 	}
 	
-	@Test
+	//dataProvider="validLoginData", dataProviderClass = DataProviders.class
+	@Test()
 	public void verifyOrrangeHRMLogo(){
+//		ExtentManager.startTest("Home page logo test"); -- This will be implemented in TestListener
+//		ExtentManager.logStep("Navigating to Login Page entering username and password");
 		loginPage.login("Admin", "admin123");
-		Assert.assertTrue(homePage.verifyLogo(), "Logo not visible");
+//		ExtentManager.logStep("Verifying logo is visible or not");
+		Assert.assertTrue(homePage.verifyLogo(), "Logo is not visible");
+//		ExtentManager.logStep("Validation Successful");
+		homePage.logout();
+//		ExtentManager.logStep("Logged out successful");
 	}
 
 }

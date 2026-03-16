@@ -8,6 +8,7 @@ public class DummyClass extends Base_Class {
 	
 	@Test
 	public void dummytest(){
+//		String title = getDriver().getTitle();
 		String title = getDriver().getTitle();
 		System.out.println("Application title : "+title);
 		assert title.equals("OrangeHRM"):"Test Failed - Title is Not Matching";

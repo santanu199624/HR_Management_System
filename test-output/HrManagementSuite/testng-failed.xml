@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyWithInvalidLoginTest"/>
           <include name="setUpPages"/>
           <include name="verifyValidLoginTest"/>
           <include name="loadConfig"/>

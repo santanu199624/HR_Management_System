@@ -35,7 +35,7 @@ public class LoginPage {
 	}
 	
 	// Method to check if error message is dispalyed
-	public Boolean isErrorMessageDisplayed() {
+	public boolean isErrorMessageDisplayed() {
 		return actionClass.isDisplayed(errorMessage);
 	}
 	

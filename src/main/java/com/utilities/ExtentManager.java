@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.maven.surefire.shared.io.FileUtils;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +31,7 @@ public class ExtentManager {
 			String reportPath = System.getProperty("user.dir")+"/src/test/resources/ExtentReport/ExtentReport.html";
 			ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 			spark.config().setReportName("Automation test report");
-			spark.config().setDocumentTitle("Report");
+			spark.config().setDocumentTitle("Orrange HRM Report");
 			spark.config().setTheme(Theme.DARK);
 			
 			extent = new ExtentReports();
@@ -54,7 +54,8 @@ public class ExtentManager {
 	
 	// End of test
 	public static void endTest() {
-		getReporter().flush();
+		extent.flush();
+//		test.remove();
 	}
 	
 	// Get current thread's test
@@ -74,7 +75,7 @@ public class ExtentManager {
 	
 	// Log a step
 	public static void logStep(String logMessage) {
-		getTest().info("logMessage");
+		getTest().info(logMessage);
 	}
 	
 	// Log a step validation with screenshot
@@ -94,7 +95,7 @@ public class ExtentManager {
 	
 	// log skipp
 	public static void logSkipp(String logMessage) {
-		String colorMessage = String.format("<span style='color:orrange;'>%s</span>", logMessage);
+		String colorMessage = String.format("<span style='color:orange;'>%s</span>", logMessage);
 		getTest().skip(colorMessage);
 	}
 	
@@ -106,7 +107,7 @@ public class ExtentManager {
 		String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 		
 		// Saving the screenshot into a file
-		String destPath = System.getProperty("user.dir")+"/src/test/resources/ExtentReport/screenshot"+screenshotName+"_"+timeStamp+".png";
+		String destPath = System.getProperty("user.dir")+"/src/test/resources/screenshots/screenshot/"+screenshotName+"_"+timeStamp+".png";
 		File path = new File(destPath);
 		try {
 			FileUtils.copyFile(src, path);
@@ -116,7 +117,7 @@ public class ExtentManager {
 		}
 		
 		//Convert screenshot to Base64 fir embedding in the report
-		String base64Format = convertBase64(src);
+		String base64Format = convertBase64(path);
 		return base64Format;
 	}
 	
@@ -136,7 +137,7 @@ public class ExtentManager {
 		return base64Format;
 	}
 	
-	// Attach screnshot report using base64
+	// Attach screenshot report using base64
 	public static void attachScreenShot(WebDriver driver, String message) {
 		try {
 			String screenShotBase64 = takeScreenshot(driver, getTestName()); 

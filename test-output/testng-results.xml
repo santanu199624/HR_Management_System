@@ -1,95 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-23T07:03:28 IST" name="HrManagementSuite" finished-at="2025-11-23T07:04:56 IST" duration-ms="87863">
+  <suite started-at="2026-03-11T11:06:47 IST" name="Suite" finished-at="2026-03-11T11:07:31 IST" duration-ms="44694">
     <groups>
     </groups>
-    <test started-at="2025-11-23T07:03:28 IST" name="HrManagementTest" finished-at="2025-11-23T07:04:56 IST" duration-ms="87863">
+    <test started-at="2026-03-11T11:06:47 IST" name="Test" finished-at="2026-03-11T11:07:31 IST" duration-ms="44694">
       <class name="testCases.test.DummyClass2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.DummyClass2@129b4fe2]" started-at="2025-11-23T07:03:28 IST" name="setUp" finished-at="2025-11-23T07:03:48 IST" duration-ms="19541" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.DummyClass2@2bd2b28e]" started-at="2026-03-11T11:06:47 IST" name="setUp" finished-at="2026-03-11T11:06:57 IST" duration-ms="10324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="dummytest()[pri:0, instance:testCases.test.DummyClass2@129b4fe2]" started-at="2025-11-23T07:03:48 IST" name="dummytest" finished-at="2025-11-23T07:03:48 IST" duration-ms="39" status="PASS">
+        <test-method signature="dummytest()[pri:0, instance:testCases.test.DummyClass2@2bd2b28e]" started-at="2026-03-11T11:06:57 IST" name="dummytest" finished-at="2026-03-11T11:06:57 IST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed - Title is Not Matching]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed - Title is Not Matching
+at testCases.test.DummyClass2.dummytest(DummyClass2.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummytest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.DummyClass2@129b4fe2]" started-at="2025-11-23T07:03:48 IST" name="tearDown" finished-at="2025-11-23T07:03:50 IST" duration-ms="2066" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.DummyClass2@2bd2b28e]" started-at="2026-03-11T11:06:57 IST" name="tearDown" finished-at="2026-03-11T11:07:00 IST" duration-ms="2746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.test.DummyClass2 -->
       <class name="testCases.test.Login_Page_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:03:28 IST" name="setUp" finished-at="2025-11-23T07:03:52 IST" duration-ms="23718" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:06:47 IST" name="setUp" finished-at="2026-03-11T11:06:58 IST" duration-ms="11665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:03:52 IST" name="setUpPages" finished-at="2025-11-23T07:03:52 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method signature="verifyValidLoginTest()[pri:1, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:03:52 IST" name="verifyValidLoginTest" finished-at="2025-11-23T07:04:39 IST" duration-ms="47107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:04:39 IST" name="tearDown" finished-at="2025-11-23T07:04:39 IST" duration-ms="424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:04:39 IST" name="setUp" finished-at="2025-11-23T07:04:53 IST" duration-ms="13181" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:06:47 IST" name="setUp" finished-at="2026-03-11T11:07:04 IST" duration-ms="17558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:04:53 IST" name="setUpPages" finished-at="2025-11-23T07:04:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:06:58 IST" name="setUpPages" finished-at="2026-03-11T11:06:58 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="verifyWithInvalidLoginTest()[pri:2, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:04:53 IST" name="verifyWithInvalidLoginTest" finished-at="2025-11-23T07:04:55 IST" duration-ms="2850" status="PASS">
+        <test-method signature="verifyWithInvalidLoginTest()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:06:58 IST" name="verifyWithInvalidLoginTest" finished-at="2026-03-11T11:07:31 IST" duration-ms="32916" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Text failed: Invalid Error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Text failed: Invalid Error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.test.Login_Page_Test.verifyWithInvalidLoginTest(Login_Page_Test.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWithInvalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Login_Page_Test@5af3a0f]" started-at="2025-11-23T07:04:55 IST" name="tearDown" finished-at="2025-11-23T07:04:56 IST" duration-ms="468" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:07:04 IST" name="setUpPages" finished-at="2026-03-11T11:07:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyValidLoginTest()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:07:04 IST" name="verifyValidLoginTest" finished-at="2026-03-11T11:07:30 IST" duration-ms="25662" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Admin tab should be visible after successfully login! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Admin tab should be visible after successfully login! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.test.Login_Page_Test.verifyValidLoginTest(Login_Page_Test.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:07:30 IST" name="tearDown" finished-at="2026-03-11T11:07:30 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Login_Page_Test@16746061]" started-at="2026-03-11T11:07:31 IST" name="tearDown" finished-at="2026-03-11T11:07:31 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.test.Login_Page_Test -->
       <class name="testCases.test.Home_Page_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Home_Page_Test@a8e6492]" started-at="2025-11-23T07:03:28 IST" name="setUp" finished-at="2025-11-23T07:03:50 IST" duration-ms="21868" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.Home_Page_Test@1698ee84]" started-at="2026-03-11T11:06:47 IST" name="setUp" finished-at="2026-03-11T11:06:59 IST" duration-ms="12077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Home_Page_Test@a8e6492]" started-at="2025-11-23T07:03:50 IST" name="setUpPages" finished-at="2025-11-23T07:03:50 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testCases.test.Home_Page_Test@1698ee84]" started-at="2026-03-11T11:06:59 IST" name="setUpPages" finished-at="2026-03-11T11:06:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="verifyOrrangeHRMLogo()[pri:0, instance:testCases.test.Home_Page_Test@a8e6492]" started-at="2025-11-23T07:03:50 IST" name="verifyOrrangeHRMLogo" finished-at="2025-11-23T07:03:53 IST" duration-ms="3276" status="PASS">
+        <test-method signature="verifyOrrangeHRMLogo()[pri:0, instance:testCases.test.Home_Page_Test@1698ee84]" started-at="2026-03-11T11:06:59 IST" name="verifyOrrangeHRMLogo" finished-at="2026-03-11T11:07:28 IST" duration-ms="29073" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Logo is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Logo is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.test.Home_Page_Test.verifyOrrangeHRMLogo(Home_Page_Test.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrrangeHRMLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Home_Page_Test@a8e6492]" started-at="2025-11-23T07:03:53 IST" name="tearDown" finished-at="2025-11-23T07:03:56 IST" duration-ms="2339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.Home_Page_Test@1698ee84]" started-at="2026-03-11T11:07:28 IST" name="tearDown" finished-at="2026-03-11T11:07:28 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.test.Home_Page_Test -->
       <class name="testCases.test.DummyClass">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.test.DummyClass@338494fa]" started-at="2025-11-23T07:03:28 IST" name="loadConfig" finished-at="2025-11-23T07:03:28 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.test.DummyClass@75390459]" started-at="2026-03-11T11:06:47 IST" name="loadConfig" finished-at="2026-03-11T11:06:47 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.DummyClass@338494fa]" started-at="2025-11-23T07:03:28 IST" name="setUp" finished-at="2025-11-23T07:03:47 IST" duration-ms="19179" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.test.DummyClass@75390459]" started-at="2026-03-11T11:06:47 IST" name="setUp" finished-at="2026-03-11T11:06:59 IST" duration-ms="12043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="dummytest()[pri:0, instance:testCases.test.DummyClass@338494fa]" started-at="2025-11-23T07:03:47 IST" name="dummytest" finished-at="2025-11-23T07:03:47 IST" duration-ms="58" status="PASS">
+        <test-method signature="dummytest()[pri:0, instance:testCases.test.DummyClass@75390459]" started-at="2026-03-11T11:06:59 IST" name="dummytest" finished-at="2026-03-11T11:06:59 IST" duration-ms="89" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed - Title is Not Matching]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed - Title is Not Matching
+at testCases.test.DummyClass.dummytest(DummyClass.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummytest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.DummyClass@338494fa]" started-at="2025-11-23T07:03:47 IST" name="tearDown" finished-at="2025-11-23T07:03:50 IST" duration-ms="2374" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.test.DummyClass@75390459]" started-at="2026-03-11T11:06:59 IST" name="tearDown" finished-at="2026-03-11T11:07:03 IST" duration-ms="3688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.test.DummyClass -->
-    </test> <!-- HrManagementTest -->
-  </suite> <!-- HrManagementSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

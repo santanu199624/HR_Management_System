@@ -9,22 +9,23 @@ import com.baseclass.Base_Class;
 public class HomePage {
 	private ActionsClass actionClass;
 
-	// Initialize the action class object by passing the webdriver instance
-//		public HomePage(WebDriver driver) {
-//			this.actionClass =  new ActionsClass(driver);
-//		}
-
-	public HomePage(WebDriver driver) {
+	// Define locators using By class
+	private By adminTab = By.xpath("//span[text()='Admin']");
+	private By userIdButton = By.className("oxd-userdropdown-name");
+	private By logoutBtn = By.xpath("//a[text()='Logout']");
+	private By logo = By.xpath("//div[@class='oxd-brand-banner']//img");
+	
+	
+	// Initialize the Action Class object by passing WebDriver instance
+//	public HomePage(WebDriver driver) {
+//		this.actionClass = new ActionsClass(driver); 
+//	}
+	
+	public HomePage(WebDriver driver){
 		this.actionClass = Base_Class.getActionDriver();
 	}
 
-	// Define locators using By class
-	private By adminTab = By.xpath("//span[text()='Admin']");
-	private By userIdButton = By.className("//p[@class='oxd-userdropdown-name']");
-	private By logoutBtn = By.xpath("Logout");
-	private By logo = By.xpath("//div[@class='oxd-brand-banner']//img");
-
-	// method to verify if admin tab is visible
+	// method to verify if Admin tab is visible
 	public boolean isAdminTabVisible() {
 		return actionClass.isDisplayed(adminTab);
 	}
